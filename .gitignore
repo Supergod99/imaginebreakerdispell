@@ -16,7 +16,10 @@
 
 /.settings/
 /.metadata/
+/docs/
 .classpath
 .project
 *.launch
-/docs/
+*.lnk
+Thumbs.db
+Desktop.ini

@@ -9,6 +9,9 @@ displayName="${mod_name}"
 authors="${mod_authors}"
 description='''${mod_description}'''
 
+[[mixins]]
+config="${mod_id}.mixins.json"
+
 [[dependencies.${mod_id}]]
 modId="forge"
 mandatory=true
@@ -21,4 +24,11 @@ modId="minecraft"
 mandatory=true
 versionRange="${minecraft_version_range}"
 ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="l2hostility"
+mandatory=true
+versionRange="[2.5.18,)"
+ordering="AFTER"
 side="BOTH"
