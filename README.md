@@ -1,10 +1,9 @@
 # L2 Imagine Breaker Dispell
 
-`l2_imaginebreakerdispell` is a small Minecraft Forge 1.20.1 addon mod.
+`l2_imaginebreakerdispell` is a small Minecraft Forge 1.20.1 addon mod for l2hostility.
 
 Its purpose is to make Imagine Breaker also bypass Dispell, similar to how it already bypasses Dementor in L2hostility.
 
-Current status: scaffold only. No gameplay logic or compatibility fix is implemented yet.
 
 ## Build / Run
 
